@@ -1,4 +1,21 @@
 // Text
 $font-weight-bold: 600;
+//$display-font-sizes: (
+//		1: 5rem,
+//		2: 4.5rem,
+//		3: 4rem,
+//		4: 3.5rem,
+//		5: 3rem,
+//		6: 2.5rem
+//);
+
+$display-font-weight: 700;
+$headings-line-height: 1.3625;
+
+// Colors
+$theme-colors: (
+		"orange": #FEC803,
+		"gray-600": #D9D9D9,
+);
 
 @import "bootstrap/scss/bootstrap";
