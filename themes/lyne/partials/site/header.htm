@@ -1,11 +1,12 @@
 <!-- Nav -->
 {% placeholder headerBefore %}
-<nav id="layout-nav" class="navbar navbar-expand-lg navbar-dark">
-	<div class="navbar-container container">
+<nav id="layout-nav" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+	<div class="container">
 		<a class="navbar-brand" href="{{ 'index'|page }}">
-			<img src="{{ 'assets/images/logo.svg'|theme }}" alt="October CMS Demo" width="230" />
+			<img alt="October CMS Demo" src="{{ 'assets/images/logo.svg'|theme }}" width="108.38"/>
 		</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+		        data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse">
@@ -15,10 +16,4 @@
 		</div>
 	</div>
 </nav>
-<div id="layout-nav-decorations">
-	<div class="navbar-decorations container">
-		<div class="navbar-decoration-1"></div>
-		<div class="navbar-decoration-2"></div>
-	</div>
-</div>
 {% placeholder headerAfter %}
