@@ -1,26 +1,4 @@
-$white: #ffffff;
-$cyan: #50B7DD;
-
-// Defaults
-$body-bg: #101630;
-$dark: #101630;
-
-// Navbar
-$navbar-padding-y: 0.6875rem;
-$navbar-brand-padding-y: 0;
-$navbar-dark-color: $white;
-$navbar-dark-hover-color: lighten($cyan, 50);
-$navbar-dark-active-color: $cyan;
-$navbar-nav-link-padding-x: 1rem;
-
 // Text
-$font-family-base: 'Open Sans', sans-serif;
 $font-weight-bold: 600;
-$headings-font-family: $font-family-base;
-
-// Buttons
-$btn-padding-y: 0.875rem;
-$btn-padding-x: 1rem;
-$btn-border-radius: .625rem;
 
 @import "bootstrap/scss/bootstrap";

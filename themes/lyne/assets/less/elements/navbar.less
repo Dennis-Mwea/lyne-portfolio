@@ -1,6 +1,19 @@
 .navbar {
+	--bs-navbar-padding-y: .6875rem;
+	--bs-navbar-brand-padding-y: 0;
+
 	a:hover, a:focus, a.focus {
 		text-decoration: none;
+	}
+
+	&-nav {
+		--bs-nav-link-padding-x: 1rem;
+	}
+
+	&-dark {
+		--bs-navbar-color: #ffffff;
+		--bs-navbar-hover-color: #50B7DD;
+		--bs-navbar-active-color: #50B7DD;
 	}
 
 	// Mobile Nav
@@ -56,10 +69,12 @@
 		.nav-item {
 			.nav-link {
 				color: #e0e0e0;
+
 				&:hover {
 					color: #fff;
 				}
 			}
+
 			.btn {
 				margin-top: 1rem;
 				margin-left: 1rem;
