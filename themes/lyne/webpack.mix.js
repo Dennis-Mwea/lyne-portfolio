@@ -15,10 +15,10 @@ const webpackConfig = require('./webpack.config');
 mix.webpackConfig(webpackConfig)
     .options({ processCssUrls: false })
     .copy('node_modules/jquery/dist/jquery.min.js', 'assets/vendor/jquery.min.js')
-    // .js('assets/vendor/codeblocks/codeblocks.js', 'assets/vendor/codeblocks/codeblocks.min.js')
     .js('assets/vendor/bootstrap/bootstrap.js', 'assets/vendor/bootstrap/bootstrap.min.js')
-    .sass('assets/vendor/bootstrap/bootstrap.scss', 'assets/vendor/bootstrap/bootstrap.css');
-    // .sass('assets/vendor/bootstrap-icons/bootstrap-icons.scss', 'assets/vendor/bootstrap-icons/bootstrap-icons.css')
+	.sass('assets/vendor/bootstrap/bootstrap.scss', 'assets/vendor/bootstrap/bootstrap.css');
+// .js('assets/vendor/codeblocks/codeblocks.js', 'assets/vendor/codeblocks/codeblocks.min.js')
+// .sass('assets/vendor/bootstrap-icons/bootstrap-icons.scss', 'assets/vendor/bootstrap-icons/bootstrap-icons.css')
     // .copy('node_modules/bootstrap-icons/font/fonts/', 'assets/vendor/bootstrap-icons/fonts/')
     // .copy('node_modules/slick-carousel/slick', 'assets/vendor/slick-carousel/')
     // .copy('node_modules/photoswipe/dist/photoswipe.css', 'assets/vendor/photoswipe/photoswipe.css')
