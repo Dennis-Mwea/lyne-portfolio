@@ -18,4 +18,9 @@ $font-family-base: 'Open Sans', sans-serif;
 $font-weight-bold: 600;
 $headings-font-family: $font-family-base;
 
+// Buttons
+$btn-padding-y: 0.875rem;
+$btn-padding-x: 1rem;
+$btn-border-radius: .625rem;
+
 @import "bootstrap/scss/bootstrap";
