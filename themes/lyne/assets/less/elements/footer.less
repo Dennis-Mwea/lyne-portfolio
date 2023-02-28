@@ -75,4 +75,17 @@
 			border-radius: 100px 100px 0 0;
 		}
 	}
+
+	@media screen and (max-width: @screen-md-max) {
+		&:before,
+		&:after {
+			width: 60px;
+			height: 120px;
+			background-size: 60px 120px;
+		}
+
+		.bg-gradient {
+			border-radius: 40px 40px 0 0;
+		}
+	}
 }
