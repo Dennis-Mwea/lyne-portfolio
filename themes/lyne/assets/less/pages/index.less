@@ -3,6 +3,48 @@
 /**
 * Index Page Stylesheet
 */
-.me {
-	min-height: calc(1024px - 72.7px);
+.page-home {
+	.me {
+		height: calc(~"1024px - 72.7px");
+		padding-top: 8.75rem;
+	}
+
+	.img-wrapper {
+		&-container {
+			--bs-border-width: .75rem;
+			width: 25rem;
+			height: 25rem;
+		}
+	}
+
+	.services {
+		.service {
+			--bs-border-radius-lg: .5rem;
+			background: linear-gradient(314.3deg, #50A8DA 4.48%, #482DC0 75.35%);
+		}
+	}
+
+	@media screen and (max-width: @screen-sm-max) {
+		.me {
+			height: auto;
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+
+		.img-wrapper {
+			img {
+				width: calc(~"100vw - 4rem");
+			}
+
+			&-container {
+				--bs-border-width: .75rem;
+				width: calc(~"100vw - 3.25rem");
+				height: calc(~"100vw - 3.25rem");
+
+				&.border-primary {
+					--bs-border-color: #4FB7DC;
+				}
+			}
+		}
+	}
 }

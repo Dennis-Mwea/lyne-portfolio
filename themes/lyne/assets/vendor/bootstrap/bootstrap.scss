@@ -1,21 +1,51 @@
 // Text
 $font-weight-bold: 600;
-//$display-font-sizes: (
-//		1: 5rem,
-//		2: 4.5rem,
-//		3: 4rem,
-//		4: 3.5rem,
-//		5: 3rem,
-//		6: 2.5rem
-//);
 
 $display-font-weight: 700;
 $headings-line-height: 1.3625;
 
 // Colors
+$theme-colors: ();
 $theme-colors: (
 		"orange": #FEC803,
 		"gray-600": #D9D9D9,
+		"gray-700": #858995,
+		"black": #000000,
+		"blue-400": #50B7DD,
+		"blue-500": #4FB7DC,
+		"dark": #101630,
 );
+
+$position-values: (
+		0: 0,
+		50: 50%,
+		100: 100%,
+		36: 2.25rem,
+		40: 2.5rem,
+);
+
+$spacer: 1rem !default;
+$spacers: (
+		0: 0,
+		18: $spacer * .1875,
+		1: $spacer * .25,
+		2: $spacer * .5,
+		10: $spacer * .625,
+		12: $spacer * .75,
+		3: $spacer,
+		20: $spacer * 1.25,
+		4: $spacer * 1.5,
+		36: $spacer * 2.25,
+		28: $spacer * 1.75,
+		30: $spacer * 1.875,
+		32: $spacer * 2,
+		40: $spacer * 2.5,
+		5: $spacer * 3,
+		88: $spacer * 5.5,
+		100: $spacer * 6.25,
+		120: $spacer * 7.5,
+		147: $spacer * 9.1875,
+		165: $spacer * 10.3125,
+) !default;
 
 @import "bootstrap/scss/bootstrap";

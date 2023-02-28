@@ -9,70 +9,309 @@ id = "home"
 less[] = "pages/index.less"
 ==
 
-<div class="jumbotron">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="jumbotron-intro">
-					<h1>Welcome to October CMS!</h1>
-					<p class="lead">
-						This is the October CMS demo theme that explores the core features. You can use it as a foundation for your new website.
-					</p>
-					<p>
-						{% if backendUrl %}
-						<a href="{{ backendUrl }}" target="backend" class="btn btn-outline-light btn-pill">
-							Explore the Backend Area
-						</a>
-						{% else %}
-						<a href="https://octobercms.com/features" target="_blank" class="btn btn-outline-light btn-pill">
-							Explore the Platform Features
-						</a>
-						{% endif %}
-					</p>
-				</div>
-			</div>
+<div class="me pb-5 pb-sm-120">
+	<div class="container h-100">
+		<div class="d-flex flex-column justify-content-center h-100">
+			<div class="row align-items-end">
+				<div class="col-md-6">
+					<h4 class="text-gray-600 fw-bold mb-1">Hello, Im Pauline</h4>
 
-			<div class="col-lg-6">
-				<div class="jumbotron-product">
-					<img src="{{ 'assets/images/homepage-header-image.png'|theme }}" class="img-fluid" alt="Product Shot" />
+					<h1 class="display-1">UI & UX <br class="d-none d-sm-block"><span class="text-orange">Designer</span></h1>
+
+					<h4 class="fw-bold mb-4 mb-sm-5">Freelance product Designer </h4>
+
+					<a class="btn btn-primary btn-primary-gradient btn-lg" href="">Previous Projects</a>
+				</div>
+
+				<div class="col-md-6">
+					<img alt="Pauline" class="img-fluid d-none d-sm-block" src="{{ 'assets/images/banner.png'|theme }}">
 				</div>
 			</div>
 		</div>
-		<div class="jumbotron-decoration-1"></div>
-		<div class="jumbotron-decoration-2"></div>
 	</div>
 </div>
 
-<div class="jumbotron">
+<div class="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6">
-				<div class="jumbotron-intro">
-					<h1>Welcome to October CMS!</h1>
-					<p class="lead">
-						This is the October CMS demo theme that explores the core features. You can use it as a foundation for your new website.
-					</p>
-					<p>
-						{% if backendUrl %}
-						<a href="{{ backendUrl }}" target="backend" class="btn btn-outline-light btn-pill">
-							Explore the Backend Area
-						</a>
-						{% else %}
-						<a href="https://octobercms.com/features" target="_blank" class="btn btn-outline-light btn-pill">
-							Explore the Platform Features
-						</a>
-						{% endif %}
-					</p>
+			<div class="col-md-5">
+				<div class="d-flex justify-content-start img-wrapper position-relative pt-4 pt-sm-36">
+					<img alt="Pauline" class="img-fluid position-absolute top-0 border border-black rounded-5" src="{{ 'assets/images/lyne.png'|theme }}"
+					     width="400">
+					<div class="img-wrapper-container rounded-4 border border-5 border-blue-500 ms-4 ms-sm-40"></div>
 				</div>
 			</div>
 
-			<div class="col-lg-6">
-				<div class="jumbotron-product">
-					<img src="{{ 'assets/images/homepage-header-image.png'|theme }}" class="img-fluid" alt="Product Shot" />
+			<div class="col-md-7 mt-5 mt-sm-36">
+				<h2 class="display-6 mb-4">ABOUT ME</h2>
+
+				<p class="mb-12 text-gray-700">Im highly flexible and adaptable when it comes to diffrent projects and freelance work. i create data driven
+					solution that elevate human experience.</p>
+
+				<p class="text-gray-700 mb-5">Product designer and Digital Creative Director working in design field,specialized in UX/UI Branding and digital
+					designs.</p>
+
+				<div class="d-flex">
+					<a class="btn btn-primary btn-primary-gradient btn-lg me-3 d-flex align-items-center" href="">Hire me</a>
+
+					<div class="btn-outline-primary-gradient-wrapper ms-3 rounded-3 p-18">
+						<a class="btn btn-primary btn-outline-primary-gradient btn-lg" href="">Resume</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="jumbotron-decoration-1"></div>
-		<div class="jumbotron-decoration-2"></div>
+	</div>
+</div>
+
+<div class="projects mt-5 mt-sm-165">
+	<div class="container">
+		<div class="d-flex justify-content-center mb-32 mb-sm-88">
+			<a class="me-32 text-white fs-5 text-decoration-none fw-bold" href="">Mobile App</a>
+
+			<a class="ms-32 text-blue-500 fs-5 fw-bold" href="">Website</a>
+		</div>
+
+		<div class="row">
+			<div class="col-md-7 mt-0 mt-sm-36">
+				<h1 class="mb-12 text-blue-400 fw-normal">Project 1</h1>
+
+				<h1 class="mb-3 fw-bold">Restaurant landing page Design</h1>
+
+				<p class="mb-12 text-gray-700 mb-32">This project is about a fast food delivery restaurant which is getting in delivery business for its
+					customers who
+					can order online and want the food within 25 min at their residence.
+					I got the opportunity to design a website for purple hut restaurant where i came up with a design with easy flow with a beautiful
+					format.</p>
+
+
+				<div class="d-flex">
+					<div class="btn-outline-primary-gradient-wrapper rounded-3 p-18">
+						<a class="btn btn-primary btn-outline-primary-gradient btn-lg px-30" href="">View Project</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-5 mt-32 mt-sm-0">
+				<div class="d-flex justify-content-end img-wrapper img-wrapper-right position-relative pt-4 pt-sm-36">
+					<img alt="Pauline" class="img-fluid position-absolute top-0 border border-black rounded-5" src="{{ 'assets/images/lyne.png'|theme }}">
+					<div class="img-wrapper-container rounded-4 border border-5 border-blue-500 me-4 me-sm-40"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mt-32 mt-sm-120">
+			<div class="col-md-5 mt-32 mt-sm-0 order-1 order-sm-0">
+				<div class="d-flex justify-content-start img-wrapper img-wrapper-right position-relative pt-4 pt-sm-36">
+					<img alt="Pauline" class="img-fluid position-absolute top-0 border border-black rounded-5" src="{{ 'assets/images/lyne.png'|theme }}">
+					<div class="img-wrapper-container rounded-4 border border-5 border-blue-500 ms-4 ms-sm-40"></div>
+				</div>
+			</div>
+
+			<div class="col-md-7 mt-0 mt-sm-36 order-0 order-sm-1">
+				<h1 class="mb-12 text-blue-400 fw-normal">Project 2</h1>
+
+				<h1 class="mb-3 fw-bold">Crypto Currency Website</h1>
+
+				<p class="mb-12 text-gray-700 mb-32">The project entails buying and selling of digital currencies,keep track on them in one place. The project
+					is designed to work as a medium of exchange through all the features designed in the project. <br>
+					It was necessary that i made a clean and iconic design because this site was for daily use by investors and traders.</p>
+
+
+				<div class="d-flex">
+					<div class="btn-outline-primary-gradient-wrapper rounded-3 p-18">
+						<a class="btn btn-primary btn-outline-primary-gradient btn-lg px-30" href="">View Project</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mt-32 mt-sm-120">
+			<div class="col-md-7 mt-0 mt-sm-36">
+				<h1 class="mb-12 text-blue-400 fw-normal">Project 3</h1>
+
+				<h1 class="mb-3 fw-bold">Restaurant landing page Design</h1>
+
+				<p class="mb-12 text-gray-700 mb-32">This project is about a fast food delivery restaurant which is getting in delivery business for its
+					customers who
+					can order online and want the food within 25 min at their residence.
+					I got the opportunity to design a website for purple hut restaurant where i came up with a design with easy flow with a beautiful
+					format.</p>
+
+
+				<div class="d-flex">
+					<div class="btn-outline-primary-gradient-wrapper rounded-3 p-18">
+						<a class="btn btn-primary btn-outline-primary-gradient btn-lg px-30" href="">View Project</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-5 mt-32 mt-sm-0">
+				<div class="d-flex justify-content-end img-wrapper img-wrapper-right position-relative pt-4 pt-sm-36">
+					<img alt="Pauline" class="img-fluid position-absolute top-0 border border-black rounded-5" src="{{ 'assets/images/lyne.png'|theme }}">
+					<div class="img-wrapper-container rounded-4 border border-5 border-blue-500 me-4 me-sm-40"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mt-32 mt-sm-120">
+			<div class="col-md-5 mt-32 mt-sm-0 order-1 order-sm-0">
+				<div class="d-flex justify-content-start img-wrapper img-wrapper-right position-relative pt-4 pt-sm-36">
+					<img alt="Pauline" class="img-fluid position-absolute top-0 border border-black rounded-5" src="{{ 'assets/images/lyne.png'|theme }}">
+					<div class="img-wrapper-container rounded-4 border border-5 border-blue-500 ms-4 ms-sm-40"></div>
+				</div>
+			</div>
+
+			<div class="col-md-7 mt-0 mt-sm-36 order-0 order-sm-1">
+				<h1 class="mb-12 text-blue-400 fw-normal">Project 4</h1>
+
+				<h1 class="mb-3 fw-bold">Crypto Currency Website</h1>
+
+				<p class="mb-12 text-gray-700 mb-32">The project entails buying and selling of digital currencies,keep track on them in one place. The project
+					is designed to work as a medium of exchange through all the features designed in the project. <br>
+					It was necessary that i made a clean and iconic design because this site was for daily use by investors and traders.</p>
+
+
+				<div class="d-flex">
+					<div class="btn-outline-primary-gradient-wrapper rounded-3 p-18">
+						<a class="btn btn-primary btn-outline-primary-gradient btn-lg px-30" href="">View Project</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="services mt-5 mt-sm-120">
+	<div class="container">
+		<h1 class="text-center fw-bold text-uppercase mb-5 mb-sm-100">Services</h1>
+
+		<div class="row">
+			<div class="col-md-6 mb-5">
+				<div class="me-0 me-sm-5 service p-18 rounded-3 shadow h-100">
+					<div class="bg-dark p-32 rounded-3 h-100">
+						<div class="d-flex align-items-center mb-3">
+							<div class="bg-white rounded-circle p-20 me-28">
+								<img alt="Android Phone" src="{{ 'assets/images/phone-android.svg'|theme }}">
+							</div>
+
+							<h1 class="fw-bold mb-0">Mobile app Design</h1>
+						</div>
+
+						<p class="text-gray-700 mb-0">App design is a combination of UI and UX design to build out a usable piece of software.
+							<br>Ideal mobile app design is good-looking, functional, and straightforward all at the same time.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 mb-5">
+				<div class="ms-0 ms-sm-5 service p-18 rounded-3 shadow h-100">
+					<div class="bg-dark p-32 rounded-3 h-100">
+						<div class="d-flex align-items-center mb-3">
+							<div class="bg-white rounded-circle p-20 me-28">
+								<img alt="Android Phone" src="{{ 'assets/images/desktop.svg'|theme }}">
+							</div>
+
+							<h1 class="fw-bold mb-0">Web Design</h1>
+						</div>
+
+						<p class="text-gray-700 mb-0">Web design is a process of conceptualizing, planning and building a collection of electronics files that
+							determine the layout,colors,text styles, structure, graphics, image, and use of interactive features that deliver pages to your site
+							visitors.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 mt-0 mt-sm-5">
+				<div class="me-0 me-sm-5 service p-18 rounded-3 shadow h-100">
+					<div class="bg-dark p-32 rounded-3 h-100">
+						<div class="d-flex align-items-center mb-3">
+							<div class="bg-white rounded-circle p-20 me-28">
+								<img alt="Android Phone" src="{{ 'assets/images/phone-android.svg'|theme }}">
+							</div>
+
+							<h1 class="fw-bold mb-0">User Interface Design</h1>
+						</div>
+
+						<p class="text-gray-700 mb-0">User interface (UI) design is the process designers use to build interfaces in software or computerized
+							devices, focusing on looks or style. Designers aim to create interfaces which users find easy to use and pleasurable. UI design
+							refers to graphical user interfaces and other forms.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 mt-5">
+				<div class="ms-0 ms-sm-5 service p-18 rounded-3 shadow h-100">
+					<div class="bg-dark p-32 rounded-3 h-100">
+						<div class="d-flex align-items-center mb-3">
+							<div class="bg-white rounded-circle p-20 me-28">
+								<img alt="Android Phone" src="{{ 'assets/images/phone-android.svg'|theme }}">
+							</div>
+
+							<h1 class="fw-bold mb-0">Creative Design</h1>
+						</div>
+
+						<p class="text-gray-700 mb-0">Creativity, design and innovation are the root of bringing new ideas to life. Sometimes these terms are
+							used interchangeably, but in reality they are actually different and work together to achieve a goal. Creativity begins the spark
+							which brings on the design to create innovation.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="skills mt-5 mt-sm-120">
+	<div class="container">
+		<h1 class="text-center fw-bold text-uppercase mb-5 mb-sm-100">Skills</h1>
+
+		<div class="row skills-items">
+			<div class="col-6 col-sm-4 col-md-2">
+				<div class="item d-flex flex-column align-items-center">
+					<img alt="Visual Design" class="mb-10" src="{{ 'assets/images/skills/visual-design.svg'|theme }}">
+
+					<p class="text-gray-700 fw-bold fs-5 text-center mb-0">Visual Design</p>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-md-2">
+				<div class="item d-flex flex-column align-items-center">
+					<img alt="Wire Frames" class="mb-10" src="{{ 'assets/images/skills/wire-frames.svg'|theme }}">
+
+					<p class="text-gray-700 fw-bold fs-5 text-center mb-0">Wire Frames</p>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-md-2">
+				<div class="item d-flex flex-column align-items-center">
+					<img alt="User Experience Design" class="mb-10" src="{{ 'assets/images/skills/user-experience-design.svg'|theme }}">
+
+					<p class="text-gray-700 fw-bold fs-5 text-center mb-0">User Experience Design</p>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-md-2">
+				<div class="item d-flex flex-column align-items-center">
+					<img alt="Prototype" class="mb-10" src="{{ 'assets/images/skills/prototyping.svg'|theme }}">
+
+					<p class="text-gray-700 fw-bold fs-5 text-center mb-0">Prototype</p>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-md-2">
+				<div class="item d-flex flex-column align-items-center">
+					<img alt="User Research" class="mb-10" src="{{ 'assets/images/skills/user-research.svg'|theme }}">
+
+					<p class="text-gray-700 fw-bold fs-5 text-center mb-0">User Research</p>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-4 col-md-2">
+				<div class="item d-flex flex-column align-items-center">
+					<img alt="Art Direction" class="mb-10" src="{{ 'assets/images/skills/art-direction.svg'|theme }}">
+
+					<p class="text-gray-700 fw-bold fs-5 text-center mb-0">Art Direction</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
