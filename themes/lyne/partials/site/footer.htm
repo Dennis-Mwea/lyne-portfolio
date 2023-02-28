@@ -1,104 +1,105 @@
-<div class="element-footer {{ blueFooterStyle|default(false) ? 'footer-bluezone' }}">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-lg-6 col-xl-5">
-				<div class="footer-brand">
-					<img src="{{ 'assets/images/logo.svg'|theme }}" alt="October CMS Demo" width="270" />
+<div class="element-footer2 mt-88 mt-lg-147 pt-88 position-relative">
+	<div class="bg-gradient pt-30 pb-40">
+		<div class="container position-relative info">
+			<h1 class="text-center fw-bolder mb-36">Contact</h1>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<h1 class="fw-bolder mb-12">Let’s work together on your next project</h1>
+
+					<p class="fs-5 text-white mb-4">Create solutions that are bold and forward looking,and lets, bring your next big idea to life</p>
+
+					<div class="contact">
+						<div class="contact-item d-flex align-items-center">
+							<div class="contact-item-icon rounded-3 me-30 d-flex justify-content-center align-items-center">
+								<img alt="Call" src="{{ 'assets/images/contact/call.svg'|theme }}">
+							</div>
+
+							<a class="text-white fs-5 text-decoration-none" href="tel:+254710285429">(+254) 710285429</a>
+						</div>
+
+						<div class="contact-item d-flex align-items-center my-20">
+							<div class="contact-item-icon rounded-3 me-30 d-flex justify-content-center align-items-center">
+								<img alt="Call" src="{{ 'assets/images/contact/email.svg'|theme }}">
+							</div>
+
+							<a class="text-white fs-5 text-decoration-none" href="tel:paulinenyawira80@gmail.com">paulinenyawira80@gmail.com</a>
+						</div>
+
+						<div class="contact-item d-flex align-items-center my-20">
+							<div class="contact-item-icon rounded-3 me-30 d-flex justify-content-center align-items-center">
+								<img alt="Call" src="{{ 'assets/images/contact/location.svg'|theme }}">
+							</div>
+
+							<a class="text-white fs-5 text-decoration-none" href="tel:paulinenyawira80@gmail.com">Nairobi, Kenya</a>
+						</div>
+					</div>
 				</div>
-				<div class="footer-nav">
-					<div class="row gx-0">
-						<div class="col-md-4 mb-3">
-							<ul class="nav flex-column">
-								<li class="nav-item nav-item-header">
-									<a class="nav-link" href="{{ 'index'|page }}">Company</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="{{ 'blog/index'|page }}">Blog</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="{{ 'wiki/index'|page }}">Wiki</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="{{ 'about'|page }}">About</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="{{ 'contact'|page }}">Contact</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-4 mb-3">
-							<ul class="nav flex-column">
-								<li class="nav-item nav-item-header">
-									<a class="nav-link" href="{{ 'index'|page }}">Technology</a>
-								</li>
-								{% if backendUrl %}
-								<li class="nav-item">
-									<a class="nav-link" href="{{ backendUrl }}" target="backend">Backend Area</a>
-								</li>
-								{% endif %}
-								<li class="nav-item">
-									<a class="nav-link" href="{{ 'ajax'|page }}">AJAX Demo</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="{{ 'components'|page }}">Components Demo</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-4 mb-3">
-							<ul class="nav flex-column">
-								<li class="nav-item nav-item-header">
-									<a class="nav-link" href="https://octobercms.com" target="_blank">October CMS</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="https://docs.octobercms.com" target="_blank">Documentation</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="https://octobercms.com/pricing" target="_blank">Buy a License</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="https://www.youtube.com/c/OctoberCMSOfficial" target="_blank">YouTube Channel</a>
-								</li>
-							</ul>
-						</div>
+
+				<div class="col-lg-1"></div>
+
+				<div class="col-lg-5 mt-4 mt-lg-0">
+					<div class="form-wrapper p-32 rounded-3">
+						<form action="" class="row">
+							<div class="col-12 mb-10">
+								<input id="validationCustom03" class="form-control" placeholder="Name" required type="text">
+
+								<div class="invalid-feedback">Please provide a valid city.</div>
+							</div>
+
+							<div class="col-12 mb-10">
+								<input id="validationCustom03" class="form-control" placeholder="Email" required type="email">
+
+								<div class="invalid-feedback">Please provide a valid city.</div>
+							</div>
+
+							<div class="col-12 mb-20">
+								<textarea id="validationCustom03" class="form-control" placeholder="Message" required rows="4"></textarea>
+
+								<div class="invalid-feedback">Please provide a valid city.</div>
+							</div>
+
+							<div class="col-12">
+								<button class="float-end btn btn-primary rounded-1 px-40" type="submit">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-5 mt-lg-100 align-items-center caption-info">
+				<div class="col-lg-4 col-md-12 order-0 text-center text-lg-start">
+					<img src="{{ 'assets/images/logo.svg'|theme }}" alt="Logo">
+				</div>
+
+				<div class="col-lg-4 col-md-12 order-2 order-lg-1 mt-4 mt-lg-0">
+					<p class="text-white text-center mb-0 caption-info-rights">© 2023 Pauline Nyawira, All rights reserved</p>
+				</div>
+
+				<div class="col-lg-4 col-md-12 order-1 order-lg-2 mt-4 mt-lg-0 social">
+					<div class="d-flex justify-content-center justify-content-lg-end social-items">
+						<a href="instagram" target="_blank" class="social-items-icon rounded-3 d-flex align-items-center justify-content-center">
+							<img src="{{ 'assets/images/social-icons-white/instagram.svg'|theme }}" alt="Instagram">
+						</a>
+
+						<a href="twitter" target="_blank" class="social-items-icon rounded-3 d-flex align-items-center justify-content-center mx-3">
+							<img src="{{ 'assets/images/social-icons-white/twitter.svg'|theme }}" alt="Twitter">
+						</a>
+
+						<a href="facebook" target="_blank" class="social-items-icon rounded-3 d-flex align-items-center justify-content-center">
+							<img src="{{ 'assets/images/social-icons-white/facebook.svg'|theme }}" alt="Facebook">
+						</a>
+
+						<a href="linked-in" target="_blank" class="social-items-icon rounded-3 d-flex align-items-center justify-content-center mx-3">
+							<img src="{{ 'assets/images/social-icons-white/linked-in.svg'|theme }}" alt="LinkedIn">
+						</a>
+
+						<a href="behance" target="_blank" class="social-items-icon rounded-3 d-flex align-items-center justify-content-center">
+							<img src="{{ 'assets/images/social-icons-white/behance.svg'|theme }}" alt="Behance">
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="footer-social">
-					<ul class="nav">
-						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="https://dribbble.com/" target="_blank">
-								<img src="{{ 'assets/images/social-icons-white/dribbble-white.png'|theme }}" alt="Dribbble"  />
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="https://www.linkedin.com/company/october-cms/" target="_blank">
-								<img src="{{ 'assets/images/social-icons-white/linkedin-white.png'|theme }}" alt="LinkedIn"  />
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="https://twitter.com/octobercms" target="_blank">
-								<img src="{{ 'assets/images/social-icons-white/twitter-white.png'|theme }}" alt="Twitter" />
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="https://www.facebook.com/octobercms" target="_blank">
-								<img src="{{ 'assets/images/social-icons-white/facebook-white.png'|theme }}" alt="Facebook" />
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="footer-copyright">
-					<p>&copy; {{ "now"|date("Y") }} Your Company Name</p>
-					<p>All rights reserved</p>
-				</div>
-			</div>
-		</div>
-		<div class="footer-decoration-1"></div>
-		<div class="footer-decoration-2"></div>
 	</div>
 </div>

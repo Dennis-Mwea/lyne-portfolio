@@ -32,6 +32,7 @@ $spacers: (
 		2: $spacer * .5,
 		10: $spacer * .625,
 		12: $spacer * .75,
+		15: $spacer * 0.9375,
 		3: $spacer,
 		20: $spacer * 1.25,
 		4: $spacer * 1.5,
@@ -47,5 +48,16 @@ $spacers: (
 		147: $spacer * 9.1875,
 		165: $spacer * 10.3125,
 ) !default;
+
+// Forms
+$input-color: #fff;
+$input-padding-y: 1.25rem;
+$input-padding-x: .625rem;
+$input-bg: rgba(0, 0, 0, .8);
+$input-focus-box-shadow: none;
+$input-border-radius: .3125rem;
+$input-border-color: transparent;
+$input-placeholder-color: #858995;
+$input-focus-border-color: transparent;
 
 @import "bootstrap/scss/bootstrap";
