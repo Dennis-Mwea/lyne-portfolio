@@ -4,3 +4,34 @@
 		padding-top: 8.75rem;
 	}
 }
+
+.imgs-grid {
+	gap: 1.25rem;
+	display: grid;
+	max-width: unset;
+	grid-template-columns: repeat(2, 1fr);
+
+	&.imgs-grid-4 .imgs-grid-image {
+		width: 100%;
+	}
+
+	.imgs-grid-image {
+		padding: unset;
+
+		&:before {
+			content: unset;
+		}
+
+		&.full-width {
+			grid-column: span 2;
+		}
+
+		.image-wrap {
+			width: 100%;
+		}
+	}
+}
+
+.imgs-grid-modal {
+	z-index: 1031;
+}
